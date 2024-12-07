@@ -1,0 +1,37 @@
+.contactItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+  }
+  
+  .contactItem p {
+    margin: 0;
+    font-size: 16px;
+  }
+  
+  .contactItem button {
+    background-color: #e53e3e;
+    padding: 8px;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .contactItem button:hover {
+    background-color: #c53030;
+  }
+  
+  .contactItem .editButton {
+    background-color: #4caf50;
+  }
+  
+  .contactItem .editButton:hover {
+    background-color: #45a049;
+  }
+  
