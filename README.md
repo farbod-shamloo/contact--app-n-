@@ -1,8 +1,23 @@
-# React + Vite
+# اپلیکیشن مدیریت مخاطبین
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+این اپلیکیشن برای مدیریت لیست مخاطبین طراحی شده است. امکانات آن شامل افزودن، ویرایش، حذف تکی و گروهی و جستجوی مخاطبین است.
 
-Currently, two official plugins are available:
+## ویژگی‌ها
+- افزودن مخاطب جدید
+- ویرایش مخاطبین
+- حذف تکی و گروهی
+- جستجوی مخاطبین
+- تایید تمامی عملیات از طریق مدال
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## تکنولوژی‌های استفاده شده
+- React
+- Context API
+- React Hook Form
+- Yup (برای اعتبارسنجی)
+- Vite (برای توسعه سریع)
+
+## راه‌اندازی پروژه
+
+۱. ابتدا مخزن را کلون کنید:
+   ```bash
+   git clone https://github.com/your-repo/contact-app.git
